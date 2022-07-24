@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ZeroTestClasses.TC01VarifyLoginFunctionality">
+      <class name="com.ZeroTestClasses.TC03VarifyNewStockAddToWatchlist">
         <methods>
           <include name="teardown"/>
+          <include name="stockAddtoWatchlist"/>
           <include name="setup"/>
-          <include name="loginfunctionality"/>
         </methods>
-      </class> <!-- com.ZeroTestClasses.TC01VarifyLoginFunctionality -->
+      </class> <!-- com.ZeroTestClasses.TC03VarifyNewStockAddToWatchlist -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

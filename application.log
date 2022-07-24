@@ -19,3 +19,25 @@
 2022-07-13 09:35:59,599  INFO [main] Zerod:26 - Applying assertions
 2022-07-13 09:38:32,326  INFO [main] Zerod:26 - Applying assertions
 2022-07-13 09:40:23,978  INFO [main] Zerod:26 - Applying assertions
+2022-07-23 09:11:33,463  INFO [main] Zerod:26 - Applying assertions
+2022-07-23 09:11:33,468  INFO [main] Zerod:30 - Assertions completed
+2022-07-23 09:14:42,176  INFO [main] Zerod:26 - Applying assertions
+2022-07-23 09:14:42,186  INFO [main] Zerod:30 - Assertions completed
+2022-07-23 21:49:06,348  INFO [main] Zerod:26 - Applying assertions
+2022-07-23 21:49:06,353  INFO [main] Zerod:30 - Assertions completed
+2022-07-24 12:05:25,549  INFO [main] Zerod:26 - Applying assertions
+2022-07-24 12:05:25,557  INFO [main] Zerod:30 - Assertions completed
+2022-07-24 12:07:10,500  INFO [TestNG-test=Test-1] Zerod:26 - Applying assertions
+2022-07-24 12:07:10,509  INFO [TestNG-test=Test-1] Zerod:30 - Assertions completed
+2022-07-24 12:08:14,260  INFO [TestNG-test=Test-1] Zerod:26 - Applying assertions
+2022-07-24 12:08:14,270  INFO [TestNG-test=Test-1] Zerod:30 - Assertions completed
+2022-07-24 12:16:38,598  INFO [main] Zerod:26 - Applying assertions
+2022-07-24 12:16:38,604  INFO [main] Zerod:30 - Assertions completed
+2022-07-24 17:27:24,958  INFO [main] Zerod:15 - adding stock to new watchlist
+2022-07-24 17:28:30,670  INFO [main] Zerod:15 - adding stock to new watchlist
+2022-07-24 17:29:24,918  INFO [main] Zerod:15 - adding stock to new watchlist
+2022-07-24 17:32:35,194  INFO [main] Zerod:15 - adding stock to new watchlist
+2022-07-24 17:34:48,880  INFO [main] Zerod:15 - adding stock to new watchlist
+2022-07-24 17:48:16,372  INFO [main] Zerod:18 - adding stock to new watchlist
+2022-07-24 17:48:20,150  INFO [main] Zerod:28 - Stock added to watchlist sucessfully
+2022-07-24 17:48:20,152  INFO [main] Zerod:31 - Stock added to watchlist sucessfully

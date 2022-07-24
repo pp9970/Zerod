@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="Browser" value="chrome"/>
+  <test thread-count="5" name="WatchlistTest(failed)">
     <classes>
-      <class name="com.ZeroTestClasses.TC01VarifyLoginFunctionality">
+      <class name="com.ZeroTestClasses.TC03VarifyNewStockAddToWatchlist">
         <methods>
           <include name="teardown"/>
+          <include name="stockAddtoWatchlist"/>
           <include name="setup"/>
-          <include name="loginfunctionality"/>
         </methods>
-      </class> <!-- com.ZeroTestClasses.TC01VarifyLoginFunctionality -->
+      </class> <!-- com.ZeroTestClasses.TC03VarifyNewStockAddToWatchlist -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- WatchlistTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -38,6 +38,15 @@ public class Listener implements ITestListener
 		System.out.println("test case is failed within percentage");
 	}
 	
+	public void onstart(ITestResult result)
+	{
+		System.out.println("test start");
+	}
+	
+	public void onfinish(ITestResult result)
+	{
+		System.out.println("test finish");
+	}
 	
 	
 	

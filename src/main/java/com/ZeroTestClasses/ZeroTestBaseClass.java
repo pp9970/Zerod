@@ -58,12 +58,13 @@ public class ZeroTestBaseClass
 	}
 	
 	@AfterMethod
-	public void teardown()
+	public void teardown() throws InterruptedException
 	{
 		ZeroHomePagePOMClass hp = new ZeroHomePagePOMClass(driver);
 		hp.clickmenubutton();
 		hp.clicklogoutbutton();
 		
+		Thread.sleep(2000);
 		driver.close();
 	}
 	

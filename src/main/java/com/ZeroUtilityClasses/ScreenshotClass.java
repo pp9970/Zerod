@@ -23,7 +23,6 @@ public class ScreenshotClass
 		File Source = ts.getScreenshotAs(OutputType.FILE);
 		File dest = new File("./screenshot"+ date +" "+" .jpg");
 		FileHandler.copy(Source, dest);
-		
 	}
 	
 	
