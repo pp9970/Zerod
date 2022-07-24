@@ -25,7 +25,6 @@ public class TC03VarifyNewStockAddToWatchlist extends ZeroTestBaseClass
 		
 		WebElement ele = driver.findElement(By.xpath("//span[@class='nice-name']"));
 		boolean res = ele.isDisplayed();
-		log.info("Stock added to watchlist sucessfully");
 		
 		Assert.assertEquals(res, true);
 		log.info("Stock added to watchlist sucessfully");
