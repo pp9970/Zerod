@@ -9,10 +9,26 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">WatchlistTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">11,389</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">92</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">WatchlistTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.ZeroTestClasses.TC03VarifyNewStockAddToWatchlist</td><td><a href="#m0">stockAddtoWatchlist</a></td><td rowspan="1">1658665096366</td><td rowspan="1">3787</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.ZeroTestClasses.TC_01_LogIn_DDTtest</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1658674546910</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>WatchlistTest</h2><h3 id="m0">com.ZeroTestClasses.TC03VarifyNewStockAddToWatchlist#stockAddtoWatchlist</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.ZeroTestClasses.TC_01_LogIn_DDTtest#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NoSuchMethodError: &apos;void org.apache.poi.util.POILogger.log(int, java.lang.Object, java.lang.Throwable)&apos;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.NoSuchMethodError: &apos;void org.apache.poi.util.POILogger.log(int, java.lang.Object, java.lang.Throwable)&apos;
+	at org.apache.poi.util.DocumentHelper.trySetXercesSecurityManager(DocumentHelper.java:84)
+	at org.apache.poi.util.DocumentHelper.&lt;clinit&gt;(DocumentHelper.java:57)
+	at org.apache.poi.openxml4j.opc.internal.ContentTypeManager.parseContentTypesFile(ContentTypeManager.java:376)
+	at org.apache.poi.openxml4j.opc.internal.ContentTypeManager.&lt;init&gt;(ContentTypeManager.java:102)
+	at org.apache.poi.openxml4j.opc.internal.ZipContentTypeManager.&lt;init&gt;(ZipContentTypeManager.java:54)
+	at org.apache.poi.openxml4j.opc.ZipPackage.getPartsImpl(ZipPackage.java:192)
+	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:684)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:275)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:266)
+	at com.ZeroUtilityClasses.XLUtilities.getRowcount(XLUtilities.java:31)
+	at com.ZeroTestClasses.TC_01_LogIn_DDTtest.getdata(TC_01_LogIn_DDTtest.java:61)
+	... 25 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

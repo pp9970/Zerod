@@ -4,9 +4,7 @@
   <test thread-count="5" name="Test">
 <parameter name="Browser" value="chrome"></parameter>
     <classes>
-      <class name="com.ZeroTestClasses.TC02VarifyWatchlistSearchBoxISEnabled"/>
       <class name="com.ZeroTestClasses.TC_01_LogIn_DDTtest"/>
-      <class name="com.ZeroTestClasses.TC01VarifyLoginFunctionality"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
